@@ -30,5 +30,5 @@ rds = redis.Redis(
 if rds.ping():
     log.info("Redis Started Successfully...")
 
-log.info(f'checker bot ver {ver}')
+log.info(f'checker bot ver *1*')
 log.info('bot gonna fucked')
