@@ -22,9 +22,9 @@ bot = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 start_time = time.time()
 
 rds = redis.Redis(
-    host='url',
-    port='port',
-    password='pass'
+    host='redis-14381.c239.us-east-1-2.ec2.cloud.redislabs.com',
+    port='14381',
+    password='SBtEYegaUQZu9IxGp3H8ibjGS8DObmrK'
 )
 
 if rds.ping():
